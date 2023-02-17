@@ -20,7 +20,9 @@ const SigninPage = () => {
     localStorage.setItem("user",JSON.stringify(user));
     setuniuser(user.uid);
     setuser(JSON.parse(localStorage.getItem("user")));
+    
     navigate("/")
+    window.location.reload();
     // ...
   })
   .catch((error) => {
