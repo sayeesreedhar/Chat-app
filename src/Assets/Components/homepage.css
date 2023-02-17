@@ -1,0 +1,227 @@
+.container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+ 
+    display: flex;
+}
+.homepage{
+    background-color: rgb(44, 44, 250);
+    height: 100vh;
+    width: auto;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   
+}
+.search{
+    
+    border-bottom: 1px solid white;
+    margin-bottom: 4vh;
+    color: aliceblue;
+
+}
+
+input{
+    color:black;
+}
+.search-bar{
+    height:90%;
+    width: 99%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 3vh;
+    padding: 2vh;
+    
+}
+.search-bar::placeholder{
+    color: whitesmoke;
+    font-size: 3vh;
+    
+}
+.sidebar{
+    flex:1;
+    border-right: none;
+    background-color: rgb(78, 7, 144);
+    
+}
+.chats{
+    flex:2
+}
+.chat-tab{
+    height: 80vh;
+    overflow: scroll;
+   
+    
+}
+.chat-tab::-webkit-scrollbar{
+    display: none;
+}
+.navbar{
+    height: 15%;
+    border-bottom: 1px solid rgb(46, 0, 90);;
+    background-color: rgb(46, 0, 90);
+    display: flex;
+}
+.nav-logo{
+    flex:1;
+    display: flex;
+    color:whitesmoke;
+    font-size: 5vh;
+    font-family: 'cedarville cursive';
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+.pic{
+    width:3vw;
+    height:6.5vh;
+    
+}
+.user-info{
+    flex:2;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 2vw;
+    color: whitesmoke;
+    font-size: 2.5vh;
+}
+.logout-button{
+    background-color: rgb(191, 50, 251);
+    color: whitesmoke;
+    border-radius: 5px;
+    border: none;
+    height: 5vh;
+    width: 4vw;
+    cursor: pointer;
+    font-size: 1vw;
+}
+.logout-button:hover{
+    background-color:rgb(121, 4, 171) ;
+}
+.profile-img{
+    width:7vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1vw;
+}
+.user-list-profile{
+    width:3.5vw;
+    height: 7.5vh;
+    padding: 1.5vh;
+    border-radius: 100%;
+    
+}
+.disp{
+    height: auto;
+    overflow: scroll;
+}
+.chat-list{
+    display: flex;
+
+}
+.chat-list:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.chatlistcontainer{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.username{
+    font-size: 4vh;
+    font-weight: 600;
+    color:whitesmoke;
+}
+.usermsg{
+    color:lightgray;
+    font-size: 2.5vh;
+}
+.chatprofilepic{
+    width: 6vw;
+    height:11vh;
+    display: flex;
+    align-items: center;
+    border-radius: 100%;;
+    padding-right: 2vw;
+}
+.chatinfo{
+    height:15%;
+    background-color: rgb(177, 110, 238);
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 2vw;
+    font-size: 5vh;
+    font-weight: 600;
+}
+.chats{
+    background-color: rgb(232, 212, 246);
+}
+.inputmsg{
+    
+    width:100%;
+   bottom: 0;
+   height: auto;
+  background-color: rgb(229, 193, 254);
+   border-top: 5px rgb(248, 174, 248) solid;
+   border-left:none;
+   border-right:none;
+   border-bottom:none;
+   outline: none;
+   border-radius: 10px;
+   color: black;
+   padding: 2vh 2vh 2vh 2vh;
+   margin: 1vh 2vh 2vh 2vh;
+   font-size: 1.8rem;
+}
+.inputmsg::placeholder{
+    font-size: 1rem;
+    color: gray;
+    
+}
+.input-container{
+    height:15vh;
+    width: 100%;
+    
+    display: flex;
+}
+.sendbutton{
+    border-radius: 100%;
+    background-color: rgba(125, 232, 166, 0.925);
+    cursor: pointer;
+    width: 5vw;
+    height:9vh;
+   margin: 1vw;
+   color: rgb(255, 255, 255);
+  font-weight: bold;
+    border: none;
+}
+.mymsg{
+   margin-left: 39vw;
+    color:white;
+    font-weight: 600;
+    background-color: rgb(129, 223, 129);
+    width: 25vw;
+   margin-top: 1vh;
+   padding: 5px;
+    height:auto;
+    border-radius: 10px;
+}
+.omsg{
+    margin-right: 35vw;
+     color:black;
+     font-weight: 600;
+     background-color: rgb(252, 255, 252);
+     width: 25vw;
+    margin-top: 1vh;
+    padding: 5px;
+     height:auto;
+     border-radius: 10px;
+ }

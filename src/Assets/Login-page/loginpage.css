@@ -1,0 +1,72 @@
+.formContainer{
+background-image:url("./pictures/homepage-background.png") ;
+background-size: cover;
+display: flex;
+justify-content: center;
+height: 100vh;
+max-height: fit-content;
+width: auto;
+align-items: center;
+}
+.formWrapper{
+background-color: rgba(239, 246, 253, 0.773);
+padding: 20px 60px 20px 60px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+align-items: center;
+border-radius: 10px;
+width: 25rem;
+}
+.logo{
+text-align: center;
+justify-content:center ;
+font-size: 2rem;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 600;
+}
+.profilepic{
+    width:2.5rem;
+    height: auto;
+}
+label{
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+}
+.moto{
+
+}
+.registerprompt{
+
+}
+.registerbutton{
+
+}
+.formstyle{
+    display:grid;
+    padding: 5px;
+    gap: 12px;
+    
+}
+::placeholder{
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.signinButton{
+    background-color: rgba(98, 98, 255, 0.904);
+    height: 3rem;
+    border:none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+.signinButton:hover{
+    background-color: rgba(145, 145, 253, 0.904);
+}
+form{display: flex;
+flex-direction: column;
+
+width:15rem;
+}
